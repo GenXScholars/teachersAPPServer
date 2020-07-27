@@ -1,0 +1,45 @@
+{
+  "name": "teachersappserver",
+  "version": "1.0.0",
+  "description": "A teacher recruitment app",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenXScholars/teachersAPPServer.git"
+  },
+  "keywords": [
+    "app",
+    "recruitment",
+    "teacher",
+    "register",
+    "jobs",
+    "employer",
+    "search",
+    "web",
+    "teaching",
+    "working",
+    "school",
+    "nigeria"
+  ],
+  "author": "OGAGA ADJARO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GenXScholars/teachersAPPServer/issues"
+  },
+  "homepage": "https://github.com/GenXScholars/teachersAPPServer#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1"
+  }
+}
