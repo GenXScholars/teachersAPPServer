@@ -3,7 +3,7 @@ module.exports = Object.freeze({
     SERVER_NAME : 'localhost:3080/',
     APP_VERSION : '1.0.0',
     APP_LANGUAGE: 'English',
-    APP_NAME: 'Epayment',
+    APP_NAME: 'TeachersApp',
     AP_AUTHOR: {
         name: 'ADJARO OGAGA',
         contact: 'ogagaadjaro@gmail.com'
