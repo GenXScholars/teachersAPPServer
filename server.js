@@ -5,6 +5,7 @@ const passport = require('passport');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const JWT = require('jsonwebtoken');
+const errorHandler = require("./_helpers/errorhandler");
 
 const config = require('./config/constants');
 
@@ -24,6 +25,9 @@ app.use(passport.session());
 
 
 
+
+
+app.use(errorHandler);
 app.listen(config.PORT, ()=>{
     console.log("server running on port" + " " + config.PORT)
 })
