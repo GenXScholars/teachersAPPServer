@@ -6,6 +6,8 @@ const Admin = require('../models/adminModel');
 const omitPassword = require("../_helpers/helperFuncs").omitPassword;
 
 
+
+
 function getAll(req, res, next) {
     adminService.getAll()
         .then(admins => res.json(admins))
